@@ -11,11 +11,12 @@ if(isset($_POST)){
     $insertData = $conn->prepare($sqlQuery);
     $insertData->execute();
     if($insertData){
+        $_SESSION["user"]=["username"=>$username,"useremail"=>$useremail];
         echo "data inserted successfully";
     
     }else{
         echo "failed to insert data";
-    }
+    }   
 
 }
 
