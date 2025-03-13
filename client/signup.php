@@ -18,7 +18,7 @@
             <input type="text" name="useraddress" class="form-control" id="address" placeholder="Enter your address" required>
         </div>
         <div>
-            <button type="submit" class="btn btn-primary  offset-sm-3 ">Signup</button>
+            <button type="submit" name="signup" class="btn btn-primary  offset-sm-3 ">Signup</button>
         </div>
     </form>
 </div>
